@@ -15,7 +15,7 @@ y= x.split( )
 z = y[0]
 print(y)
 print(z) """
-
+""" 
 def word_count(x):
     words = x.split() #splits the sentence into a list of words
     return len(words) #returns the number of words
@@ -23,4 +23,43 @@ def word_count(x):
 user_input = input("Please enter a sentence: ") #asking user to type something
 word_count(user_input) #
 print(f"The number of words in your sentence is: {word_count}")
- 
+  """
+""" 
+day_of_week = input("what day is it? ")
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect") """
+""" 
+x = "test"
+print(f"hello {x}")
+
+temp = 75
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+""" def check_odd_or_even(number):
+    if number % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+    
+print(check_odd_or_even(5646543425)) """
+
+def service(x):
+    if x == "bad":
+        print("0 percent tip")
+    elif x == "okay":
+        print("15 percent tip")
+    elif x == "good":
+        print("20 percent tip")
+    elif x == "great":
+        print("25 percent tip")
+    else:
+        print("Invalid input, please enter 'bad', 'okay', 'good', or 'great'")
+
+print(service("great"))
