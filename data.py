@@ -49,7 +49,7 @@ else:
         return "Odd"
     
 print(check_odd_or_even(5646543425)) """
-
+""" 
 def service(x):
     if x == "bad":
         print("0 percent tip")
@@ -61,5 +61,14 @@ def service(x):
         print("25 percent tip")
     else:
         print("Invalid input, please enter 'bad', 'okay', 'good', or 'great'")
+""" """ print(service("great")) """
+"""  """
 
-print(service("great"))
+def factors(x):
+    divisors = []
+    for i in range(1, x + 1):
+        if x % i == 0:
+            divisors.append(i)  # Add i to the list if it's a divisor
+        else: "No divisors"
+
+print(factors(5))
