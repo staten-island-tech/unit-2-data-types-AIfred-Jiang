@@ -64,11 +64,20 @@ def service(x):
 """ """ print(service("great")) """
 """  """
 
-def factors(x):
-    divisors = []
-    for i in range(1, x + 1):
-        if x % i == 0:
-            divisors.append(i)  # Add i to the list if it's a divisor
-        else: "No divisors"
+""" def find_factors(number):
+    factors = []
+    for i in range(1, number + 1):
+        if number % i == 0:
+            factors.append(i)
+    return factors
 
-print(factors(5))
+number = int(input("Enter a number: "))
+print("Factors of", number, "are:", find_factors(number)) """
+
+def gcf(x,y):
+    for i in range(min(x,y) , 0 , -1):
+        if x % i == 0 and y % i == 0:
+            gcf.append(i)
+    return i
+print(gcf(5,10))
+            
