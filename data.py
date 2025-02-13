@@ -62,9 +62,8 @@ def service(x):
     else:
         print("Invalid input, please enter 'bad', 'okay', 'good', or 'great'")
 """ """ print(service("great")) """
-"""  """
 
-""" def find_factors(number):
+def find_factors(number):
     factors = []
     for i in range(1, number + 1):
         if number % i == 0:
@@ -72,12 +71,13 @@ def service(x):
     return factors
 
 number = int(input("Enter a number: "))
-print("Factors of", number, "are:", find_factors(number)) """
+print("Factors of", number, "are:", find_factors(number))
 
-def gcf(x,y):
+""" def gcf(x,y):
+    greatest = []
     for i in range(min(x,y) , 0 , -1):
         if x % i == 0 and y % i == 0:
-            gcf.append(i)
-    return i
-print(gcf(5,10))
-            
+            greatest.append(i)
+    return greatest[0]
+print(gcf(222,444))
+ """
