@@ -35,5 +35,5 @@ def gamble(age, id):
         print("you're too young")
 if not raining == true:
     print("go for walk")
-if raining == false:
+else:
     print("go for walk")
