@@ -1,0 +1,9 @@
+x = input("give a sentence")
+letters = []
+y= x.split( )
+z = y[0]
+a = z.split( )
+b = a[0]
+letters.append(z)
+print(a)
+print(b)
