@@ -1,9 +1,25 @@
+""" letters = []
 x = input("give a sentence")
-letters = []
-y= x.split( )
-z = y[0]
-a = z.split( )
-b = a[0]
-letters.append(z)
-print(a)
-print(b)
+for i in x == "T" or "t":
+    letters.append()
+for i in x == "S" or "s":
+    letters.append()
+if "t" +  "T" > "s" + "S" in letters:
+    print("french")
+else:
+    print("english") """
+
+some_text = ["my name grapefruit suck yes wow balloon cool"]
+
+def lang(text):
+    french = 0
+    english = 0
+    for letters in text:
+        if letters == "s" or letters == "S":
+            french = french + 1
+        elif letters in ["t", "T"]:
+            english = english + 1
+        if french >= english:
+            print("French")
+        else:
+            print("English")
