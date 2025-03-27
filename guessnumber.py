@@ -2,10 +2,6 @@
 import random
 
 
-
-
-
-
 def gen(min_value, max_value):
     return random.randint(min_value, max_value)
 random_number = gen(1, 1000)

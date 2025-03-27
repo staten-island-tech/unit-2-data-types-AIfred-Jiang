@@ -32,11 +32,11 @@ if x == "books":
     for book in books:
         print(book['title'])
 
-    print("\nGenres from books:")
+    print("Genres from books:")
     for book in books:
         print(book['genre'])
 
-    print("\nAuthors from books:")
+    print("Authors from books:")
     for book in books:
         print(book['author'])
 
@@ -45,10 +45,10 @@ elif x == "songs":
     for song in songs:
         print(song['title'])
 
-    print("\nGenres from songs:")
+    print("Genres from songs:")
     for song in songs:
         print(song['genre'])
 
-    print("\nAuthors from songs:")
+    print("Authors from songs:")
     for song in songs:
         print(song['author'])

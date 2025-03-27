@@ -33,7 +33,7 @@ def gamble(age, id):
         print(" you need an id verification")
     else:
         print("you're too young")
-if not raining == true:
-    print("go for walk")
+if raining == True:
+    print("do not go for walk")
 else:
     print("go for walk")
